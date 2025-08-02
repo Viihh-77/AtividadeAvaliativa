@@ -1,0 +1,190 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --purple: #936bff;
+    --gray: #7e8492;
+    --background: #1d1e25;
+
+    --font-body: 'Inter', sans-serif;
+    --font-title: 'DMSans', sans-serif;
+    --font-content: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter_18pt-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('fonts/DMSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--white);
+    color: var(--black);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--background);
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.25rem;
+}
+
+#menu-desktop {
+    display: none;
+}
+
+#menu-mobile button {
+    background: var(--background);
+    color: var(--white);
+    border: 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.banner-content p {
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.purple-btn {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0.96875rem 0.75rem;
+    border-radius: 16px;
+    border: 1;
+    border-color: var(--purple);
+    font-size: 0.875rem;
+}
+
+.banner-button {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0.96875rem 0.75rem;
+    border-radius: 16px;
+    border: 1;
+    border-color: var(--white);
+    font-size: 0.875rem;
+}
+
+.woman-image {
+    background-image: url(assets/PeopleImage1.png);
+    position: relative;
+    display: inline-block;
+}
+
+#first-purple-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--purple);
+}
+
+.brands-section {
+    padding-bottom: 7rem;
+}
+
+.brands-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3.5rem 0;
+}
+
+#brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 4.6875rem;
+    row-gap: 1rem;
+}
+
+.text {
+
+}
+
+#section-hosting-time h2 {
+    font-size: 2rem;
+    text-align: start;
+    padding: 1.5rem 0 1rem 0;
+}
+
+#section-hosting-time p {
+    font-size: 1rem;
+    color: var(--gray);
+    padding-bottom: 2rem;
+}
+
+#section-hosting-time button {
+    background: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    border-radius: 12px;
+    border: 0;
+    font-size: 1rem;
+    padding: 0.875rem 2.5rem;
+}
