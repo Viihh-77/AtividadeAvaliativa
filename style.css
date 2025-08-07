@@ -248,7 +248,10 @@ header {
 }
 
 #cards {
-
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 7rem;
 }
 
 .card-box {
@@ -268,4 +271,406 @@ header {
     border-end-end-radius: 16px;
     border-end-start-radius: 16px;
     padding: 0.5rem;
+    gap: 3.8125rem;
+}
+
+.bar {
+    align-self: center;
+    width: 84px;
+    height: 5px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2.125rem ;
+}
+
+.card-title h3 {
+    font-size: 1.417rem;
+    font-weight: 600;
+}
+
+.card-content p {
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 500;
+    color: var(--gray);
+}
+
+.hosting-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem
+}
+
+.hosting-content p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray);
+    padding-bottom: 2rem;
+}
+
+.hosting-btns {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.desktop-btn {
+    display: none;
+}
+
+.hosting-btn {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0.96875rem 0.75rem;
+    border-radius: 100px;
+    border: 1px solid var(--purple);
+    font-size: 0.875rem;
+    width: 262px;
+}
+
+#solutions-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--background);
+    color: var(--white);
+    border-radius: 8px;
+    padding: 0.625rem 1.0625rem 0.625rem 0.625rem;
+    position: absolute;
+}
+
+#solutions-content {
+    padding-bottom: 7rem;
+}
+
+#solutions-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+#solutions-content p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+
+#solutions-content button {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0.96875rem 0.75rem;
+    border-radius: 100px;
+    border: 1px solid var(--purple);
+    font-size: 1rem;
+    width: 187px;
+}
+
+.plans-section {
+
+}
+
+#plans-content {
+    padding-bottom: 3.5rem;
+}
+
+#plans-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+#plans-content p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray);
+    padding-bottom: 1rem;
+}
+
+.plans-btn {
+    background-color: #fcfcff;
+    color: var(--purple);
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 100px;
+    border: 1px solid #fcfcff;
+    padding: 0.375rem 1rem;
+    font-family: var(--font-body);
+    padding-bottom: 1rem;
+}
+
+.plans-purple-button {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0.96875rem 0.75rem;
+    border-radius: 100px;
+    border: 1px solid var(--purple);
+    font-size: 1rem;
+    width: 187px;
+}
+
+.all-plans {
+    gap: 3rem;
+}
+
+.plans {
+    background-color: #fafbfa;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 2rem;
+}
+
+.plan-content {
+    padding-bottom: 2.5rem;
+}
+
+.plan-content h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.plan-content p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--gray);
+    padding-bottom: 2.5rem;
+}
+
+.plan-content button {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0.96875rem 0.75rem;
+    border-radius: 100px;
+    border: 1px solid var(--purple);
+    font-size: 1rem;
+    width: 239px;
+}
+
+.plan-value {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    padding-bottom: 0.5rem;
+}
+
+.content-line {
+    text-decoration: line-through;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.highlight-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--black) !important;
+}
+
+.plan-others p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--gray);
+    padding-bottom: 2rem;
+}
+
+.plan-others h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.things-included {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem ;
+    padding-bottom: 1rem;
+}
+
+.review-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-inner h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.reviews-btn {
+    background-color: #fcfcff;
+    color: var(--purple);
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 100px;
+    border: 1px solid #fcfcff;
+    padding: 0.375rem 1rem;
+    font-family: var(--font-body);
+}
+
+.reviews {
+    padding-bottom: 2rem;
+}
+
+.clients-review {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    padding-top: 2rem;
+}
+
+.line-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+
+.gray-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray);
+    padding-top: 0.25rem;
+}
+
+.other-reviews {
+    display: none;
+}
+
+#arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-section {
+    padding-bottom: 3.5rem;
+}
+
+/*footer*/
+
+footer {
+    background-color: #070127;
+    color: var(--white);
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.footer-desktop {
+    display: none;
+}
+
+.footer-content img {
+    padding-bottom: 0.5rem;
+}
+
+.footer-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray);
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-navigation {
+    padding-bottom: 1.5rem;
+}
+
+.footer-navigation ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-navigation li {
+    list-style: none;
+}
+
+.footer-download {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: auto;
+}
+
+.footer-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 100px;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer-email p {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--black);
+    align-self: center;
+}
+
+.footer-email button {
+    background-color: var(--purple);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0.8125rem 1.25rem;
+    border-radius: 100px;
+    border: 1px solid var(--purple);
+    font-size: 0.875rem;
+    width: 148px;
+}
+
+.social-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.mobile-footer::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: var(--gray);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.terms p {
+    color: var(--white) !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.mobile-footer p {
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 400;
 }
