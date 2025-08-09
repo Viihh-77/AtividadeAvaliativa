@@ -855,6 +855,7 @@ footer {
     #brands {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
     column-gap: 3.5rem;
     margin-left: 4.4375rem;
     margin-right: 4.4375rem;
@@ -911,6 +912,7 @@ footer {
         flex-direction: row;
         align-items: center;
         gap: 11.5rem;
+        padding-bottom: 3.6rem;
     }
 
     #cards-content h2 {
@@ -918,6 +920,62 @@ footer {
     }
 
     #cards-content p {
+        font-size: 1.125rem;
+        padding: 0;
+    }
+
+    #cards {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-right: 10.5rem;
+    }
+
+    .card-box {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .hosting-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 4rem;
+        padding-bottom: 3.5rem;
+        gap: 17.6rem;
+    }
+
+    .hosting-content h2 {
+        font-size: 3.5rem;
+    }
+
+    .hosting-content p {
+        font-size: 1.125rem;
+        padding-bottom: 0;
+        line-height: 2rem;
+    }
+
+    .hosting-btns {
+        padding-bottom: 4rem;
+        gap: 2rem;
+    }
+
+    .hosting-btn {
+        font-size: 1.125rem;
+        width: auto;
+        padding: 0.75rem 1.5rem;
+        font-weight: 500;
+    }
+
+    .desktop-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.75rem 1rem;
+        border-radius: 100px;
+        border: 1px solid var(--black);
+        background-color: var(--white);
         font-size: 1.125rem;
     }
 
