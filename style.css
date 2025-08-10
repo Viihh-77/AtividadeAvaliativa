@@ -460,7 +460,7 @@ header {
     border: 1px solid #fcfcff;
     padding: 0.375rem 1rem;
     font-family: var(--font-body);
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .plans-purple-button {
@@ -977,6 +977,66 @@ footer {
         border: 1px solid var(--black);
         background-color: var(--white);
         font-size: 1.125rem;
+    }
+
+    .desktop-content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6.75px;
+    }
+
+    .desktop-content img {
+        width: 657px;
+        max-width: 500px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    #solutions-content {
+        padding-bottom: 0;
+        padding-right: 6.75rem;
+    }
+
+    #solutions-content h3{
+        font-size: 2rem;
+    }
+
+    #solutions-content p {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+
+    #solutions-image {
+    bottom: 30px;
+    transform: translate(820px);
+    }
+
+    #solutions-content button {
+    padding: 0.9375rem 1.25rem;
+    }
+
+    .plans-section {
+        display: flex;
+        flex-direction: row;
+        margin-top: 14rem;
+        margin-bottom: 13rem;
+        gap: 0.125rem;
+    }
+
+    #plans-content {
+        padding-right: 4.25rem;
+    }
+
+    #plans-content h2 {
+        font-size: 3rem;
+    }
+
+    #plans-content p {
+        font-size: 1.125rem;
+        width: 250px;
+        padding-bottom: 2.5rem;
     }
 
 }
