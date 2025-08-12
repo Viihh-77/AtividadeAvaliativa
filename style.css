@@ -1039,4 +1039,50 @@ footer {
         padding-bottom: 2.5rem;
     }
 
+    .review-inner {
+        margin: 0 25rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .review-inner h2 {
+        font-size: 3rem;
+    }
+
+    .other-reviews {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .reviews-container img {
+        padding-right: 2rem;
+    }
+
+    .review-content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3.5rem;
+    }
+
+    .reviews-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .clients-review {
+        padding: 0;
+        max-width: 550px;
+    }
+
+    .other-reviews img {
+        display: block;
+        width: auto;
+        height: 354px;
+    }
+
 }
