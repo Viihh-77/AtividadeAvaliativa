@@ -1039,9 +1039,16 @@ footer {
         padding-bottom: 2.5rem;
     }
 
+    .review-section {
+        margin-right: 0;
+        margin-left: 4.5rem;
+    }
+
     .review-inner {
         margin: 0 25rem;
         padding-bottom: 3.5rem;
+        display: flex;
+        align-items: center;
     }
 
     .review-inner h2 {
@@ -1085,4 +1092,49 @@ footer {
         height: 354px;
     }
 
+    #arrow img {
+        position: absolute;
+        left: 80%;
+        transform: translateY(-126px);
+    }
+
+    /* footer */
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 50%;
+    }
+
+    .mobile-footer {
+        display: none;
+    }
+
+    .footer-content p {
+        width: 61%;
+        padding-bottom: 2rem;
+    }
+
+    .footer-download {
+        display: flex;
+        flex-direction: row;
+        gap: 2.125rem;
+        padding-top: 5.1875rem;
+    }
+
+    .footer-desktop {
+        display: flex;
+    }
 }
