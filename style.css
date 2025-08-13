@@ -120,6 +120,8 @@ header {
     position: absolute;
     transform: translateY(-103px);
     left: 50%;
+    width: 67px;
+    height: 38.1px;
 }
 
 .buttons {
@@ -166,6 +168,7 @@ header {
 .woman-image img {
     width: 100%;
     display: block;
+    border: 0;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
