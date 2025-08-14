@@ -108,3 +108,9 @@ ATIVIDADAVALIATIVA
   ├── README.md
   ├── style.css
 ```
+
+<p align="center">
+  <img src="assets/gif-mobile.gif" alt="Demonstração Mobile" width="300" style="margin-right: 20px;" />
+  <img src="assets/gif-desktop.gif" alt="Demonstração Desktop" width="300" />
+</p>
+
