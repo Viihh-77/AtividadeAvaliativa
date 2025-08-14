@@ -760,7 +760,72 @@ footer {
     font-weight: 400;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 376px) and (max-width: 1439px) {
+
+    header {
+        overflow: hidden;
+    }
+
+    .banner-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .banner-title h1 {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .banner-title img {
+        display: none;
+    }
+
+    .banner-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-content p {
+        text-align: justify;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #first-purple-card {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    #brands {
+        place-items: center;
+    }
+
+    .section-time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-hosting-time h2 {
+        padding-top: 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
 
     #menu-mobile {
         display: none;
