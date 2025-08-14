@@ -8,7 +8,8 @@
 
 ## 📖 Descrição do Projeto  
 Projeto desenvolvido para a disciplina de **Programação Front End**, que consiste em transformar um layout do Figma em uma landing page funcional e responsiva.  
-A página foi criada usando as melhores práticas de desenvolvimento front-end, como:  
+
+A página foi criada usando as melhores práticas de desenvolvimento front-end, como:
 - **Mobile First** com media queries para desktop  
 - Uso correto de tags HTML semânticas  
 - Separação entre estrutura e estilo  
@@ -47,7 +48,38 @@ Essas são todas as tecnologias utilizadas para o desenvolvimento do projeto:
 ### 1º Forma para Execução:
 
 1. **Clone** esse repositório no VS Code.
-2. bla bla bla
+   
+  Copie o link:
+
+```bash
+https://github.com/Viihh-77/AtividadeAvaliativa.git
+```
+
+2. Abra o terminal no VS Code.
+
+3. Vá até a pasta que deseja salvar o projeto.
+
+  ```bash
+cd caminho/para/sua/pasta
+```
+
+4. Realize o clone do repositório.
+
+  ```bash
+git clone https://github.com/Viihh-77/AtividadeAvaliativa.git
+```
+
+5. Entre na pasta do projeto clonado.
+
+  ```bash
+cd AtividadeAvaliativa
+```
+
+6. Abra o projeto. 
+
+  ```bash
+code .
+```
 
 ### 2º Forma para Execução:
 
@@ -63,10 +95,6 @@ Essas são todas as tecnologias utilizadas para o desenvolvimento do projeto:
 ### 🚨 Dica Extra:
 
 **Não esqueça de baixar as extenções dentro do VS Code**
-
-- nome extençao
--
--
 
 ---
 
