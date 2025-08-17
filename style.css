@@ -760,7 +760,7 @@ footer {
     font-weight: 400;
 }
 
-@media (min-width: 376px) and (max-width: 1439px) {
+@media (min-width: 380px) and (max-width: 1439px) {
 
     header {
         overflow: hidden;
@@ -796,7 +796,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 5rem;
+        gap: 1rem;
     }
 
     #first-purple-card {
@@ -815,14 +815,48 @@ footer {
 
     .section-time {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
+    }
+
+    .section-time > section:first-child {
+        flex: 0 0 40%;
+    }
+
+    .section-time > section:last-child {
+        flex: 1;
+    }
+
+    #second-purple-card {
+        bottom: -0px;
+        left: 3%;
+        width: 28%;
+        height: auto;
+        padding: 1.75rem 4.6rem 2rem 1.25rem;
     }
 
     #section-hosting-time h2 {
-        padding-top: 2rem;
+        padding-left: 2.75rem;
     }
+
+    #section-hosting-time p {
+        padding-left: 2.75rem;
+    }
+
+    #section-hosting-time button {
+        margin-left: 2.75rem;
+    }
+
+    #cards {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card-box {
+        width: 100%;
+        max-width: 350px;
+    }
+
 }
 
 @media (min-width: 1440px) {
