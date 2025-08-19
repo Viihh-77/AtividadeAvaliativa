@@ -849,6 +849,7 @@ footer {
     #cards {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 2rem;
     }
 
@@ -857,6 +858,9 @@ footer {
         max-width: 350px;
     }
 
+    .plans {
+        width: 300px;
+    }
 }
 
 @media (min-width: 1440px) {
