@@ -94,7 +94,7 @@ code .
 
 ### 🚨 Dica Extra:
 
-**Não esqueça de baixar as extenções dentro do VS Code**
+**Não esqueça de baixar as extensões dentro do VS Code**
 
 ---
 
@@ -110,13 +110,13 @@ ATIVIDADAVALIATIVA
 ```
 ---
 
-## 😎 Vizualização do Projeto
+## 😎 Visualização do Projeto
 
 1. Mobile:
    <p align="center">
-   <img align="center" loading="Rodando o projeto" src="/assets/gif-mobile.gif" width="500px" height="900px"/>
+   <img align="center" loading="Preview do projeto" src="/assets/gif-mobile.gif" width="500px" height="900px"/>
    </p>
 2. Desktop:
    <p align="center">
-   <img align="center" loading="Rodando o projeto" src="/assets/gif-desktop.gif" width="1000px" height="500px"/>
+   <img align="center" loading="Preview do projeto" src="/assets/gif-desktop.gif" width="1000px" height="500px"/>
    </p>
