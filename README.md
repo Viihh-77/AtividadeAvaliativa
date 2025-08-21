@@ -108,9 +108,15 @@ ATIVIDADAVALIATIVA
   ├── README.md
   ├── style.css
 ```
+---
 
-<p align="center">
-  <img src="assets/gif-mobile.gif" alt="Demonstração Mobile" width="300" style="margin-right: 20px;" />
-  <img src="assets/gif-desktop.gif" alt="Demonstração Desktop" width="300" />
-</p>
+## 😎 Vizualização do Projeto
 
+1. Mobile:
+   <p align="center">
+   <img align="center" loading="Rodando o projeto" src="/assets/gif-mobile.gif" width="500px" height="900px"/>
+   </p>
+2. Desktop:
+   <p align="center">
+   <img align="center" loading="Rodando o projeto" src="/assets/gif-desktop.gif" width="1000px" height="500px"/>
+   </p>
