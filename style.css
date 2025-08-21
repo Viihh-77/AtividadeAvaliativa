@@ -363,6 +363,7 @@ header {
     line-height: 2;
     font-weight: 500;
     color: var(--gray);
+    width: 290px;
 }
 
 .hosting-content h2 {
@@ -760,97 +761,75 @@ footer {
     font-weight: 400;
 }
 
-@media (min-width: 380px) and (max-width: 1439px) {
-
-    header {
-        overflow: hidden;
-    }
+@media (min-width: 576px) {
 
     .banner-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-
-    .banner-title h1 {
-        text-align: center;
-        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .banner-title img {
-        display: none;
-    }
-
-    .banner-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .banner-content p {
-        text-align: justify;
+        position: static;
+        transform: none;
+        margin-bottom: 1rem;
     }
 
     .buttons {
-        display: flex;
-        flex-direction: row;
         justify-content: center;
-        gap: 1rem;
+        gap: 2rem;
     }
 
     #first-purple-card {
-        position: absolute;
         bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 300px;
-        max-width: 90%;
-        padding: 1rem;
+        left: 35%;
+        padding: 1rem 1rem 1rem 1rem;
+        width: 350px;
+    }
+
+    #premium {
+        padding-bottom: 1.5rem ;
+    }
+
+    #premium img {
+        display: block;
+        width: 50px;
+        height: 37px;
+    }
+
+    #support img {
+        display: block;
+        width: 50px;
+        height: 37px;
+    }
+
+    .text p {
+        font-size: 1rem ;
+    }
+
+    .text h3 {
+        font-size: 1rem;
     }
 
     #brands {
         place-items: center;
     }
-
-    .section-time {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .section-time > section:first-child {
-        flex: 0 0 40%;
-    }
-
-    .section-time > section:last-child {
-        flex: 1;
-    }
-
+    
     #second-purple-card {
-        bottom: -0px;
-        left: 3%;
-        width: 28%;
+        bottom: 250px;
+        left: 8%;
+        width: 50%;
         height: auto;
         padding: 1.75rem 4.6rem 2rem 1.25rem;
     }
 
-    #section-hosting-time h2 {
-        padding-left: 2.75rem;
-    }
-
-    #section-hosting-time p {
-        padding-left: 2.75rem;
-    }
-
-    #section-hosting-time button {
-        margin-left: 2.75rem;
+    .image img {
+        width: 80px;
+        height: 40px;
     }
 
     #cards {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        gap: 2rem;
     }
 
     .card-box {
@@ -859,8 +838,54 @@ footer {
     }
 
     .plans {
-        width: 300px;
+        width: 350px;
     }
+}
+
+@media (min-width: 768px) {
+
+    #first-purple-card {
+        bottom: 10px;
+        left: 47%;
+        padding: 1rem 1rem 1rem 1rem;
+        width: 350px;
+    }
+
+    #second-purple-card {
+        bottom: 250px;
+        left: 8%;
+        width: 40%;
+        height: auto;
+        padding: 1.75rem 4.6rem 2rem 1.25rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    #first-purple-card {
+        bottom: 10px;
+        left: 57%;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        width: 350px;
+    }
+
+    #second-purple-card {
+        bottom: 250px;
+        left: 5%;
+        width: 35%;
+        height: auto;
+        padding: 1.75rem 4.6rem 2rem 1.25rem;
+    }
+
+    #cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-right: 10.5rem;
+    }
+
 }
 
 @media (min-width: 1440px) {
@@ -952,7 +977,7 @@ footer {
         width: 102px;
         height: auto;
         position: absolute;
-        transform: translateY(-70px);
+        transform: translateY(170px);
         left: 25%;
     }
 
