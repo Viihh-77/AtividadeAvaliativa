@@ -312,6 +312,12 @@ header {
     padding: 1rem 0 2.4375rem 0;
 }
 
+.cards-section {
+    background-color: #fcfcff;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
 #cards {
     display: flex;
     flex-direction: column;
